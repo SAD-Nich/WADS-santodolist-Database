@@ -1,0 +1,117 @@
+body{
+  background-color: black;
+  color:white;
+}
+h1{
+  text-align: justify;
+}
+.wrapper{
+  background:grey;
+  padding: 5%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px blueviolet;
+}
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid salmon;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.inputing-items{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.inputing-items label{
+  font-weight: 100;
+  margin-bottom: auto;
+}
+.inputing-items input{
+  padding: 4px;
+  border: none;
+  width: 200px;
+}
+.inputing-items input:focus{
+  outline: none;
+  border: 5px solid salmon;
+}
+.AddTaskButton{
+  background-color: salmon;
+  color:black;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  padding: 10px;
+  width : 100px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.AddTaskButton:hover{
+  background-color: lime;
+}
+.filterButtons{
+  background-color: lightgrey;
+  color: darkslategray;
+  border:none;
+  border-radius: 0px;
+  margin-top: 20px;
+  padding:10px;
+  width:100px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.filters{
+  margin-bottom: 50px;
+}
+.active{
+  background-color: darkslategray;
+  color:black;
+}
+.todo-list{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.todo-list-items{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px greenyellow;
+}
+.todo-list-items h3{
+  font-size: 30px;
+  color: salmon;
+  font-weight: bolder;
+  margin: 0;
+}
+.todo-list-items p{
+  font-size: 10px;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.icon-delete{
+  font-size: 30px;
+  cursor: pointer;
+}
+.icon-delete:hover{
+  color: red;
+}
+.icon-check{
+  font-size : 40px;
+  margin-top: 16px;
+  margin-left: 10px;
+  color: green;
+  cursor: pointer;
+}
